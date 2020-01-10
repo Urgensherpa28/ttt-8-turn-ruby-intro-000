@@ -32,12 +32,13 @@ def move(board, index, player = "X")
 end
 
 def turn(board)
-  ask = puts "Please enter 1-9:"
+  puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
   if index == valid_move?(board, index)
     true
   else
-    ask
+    puts "Please enter 1-9:"
+    input = gets.strip
   end
 end
