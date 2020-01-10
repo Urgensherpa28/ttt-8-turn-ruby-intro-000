@@ -39,6 +39,5 @@ def turn(board)
     true
   else
     turn(board)
-    break
   end
 end
