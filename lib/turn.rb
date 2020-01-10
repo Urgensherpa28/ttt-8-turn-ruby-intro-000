@@ -30,5 +30,5 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def move(board, input, player = "X")
-  board[input] == player
+  board[input_to_index] == player
 end
