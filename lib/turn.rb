@@ -32,11 +32,12 @@ def move(board, index, player = "X")
 end
 
 def turn(board)
-  puts "Please enter 1-9:"
+  prompt = puts "Please enter 1-9:"
   input = gets
   board = input_to_index(input)
   if valid_move?(board, index)
     board
   else
-    
+    prompt
+  end
 end
