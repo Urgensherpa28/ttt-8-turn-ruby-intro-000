@@ -27,8 +27,8 @@ def input_to_index(input)
   input.to_i - 1
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
 def move(board, index, player = "X")
-   board[input_to_index] == player
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  board[8] == player
+  board[0] == "O"
 end
