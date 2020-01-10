@@ -33,8 +33,8 @@ end
 
 def turn(board)
   ask = puts "Please enter 1-9:"
-  gets = input_to_index
-    if valid_move?
+  number = gets
+    if valid_move?(number)
       move
     else
       ask
