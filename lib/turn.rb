@@ -38,6 +38,6 @@ def turn(board)
   if index == valid_move?(board, index)
     true
   else
-
+    ask
   end
 end
