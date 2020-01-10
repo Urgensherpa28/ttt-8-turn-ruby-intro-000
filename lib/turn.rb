@@ -29,6 +29,6 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def move(board, index, player = "X")
-  board[index] == player
+def move(board, input, player = "X")
+  board[input] == player
 end
