@@ -35,7 +35,7 @@ def turn(board)
   puts "Please enter 1-9:"
   index = gets
   if index == valid_move?(board, index)
-    move(index)
+    move(board, index, player = "X")
   else
     puts "Please enter 1-9:"
   end
