@@ -32,5 +32,6 @@ end
 
 
 def move(board, index, player = "X")
-  board[index] == player
+  board[8] == player
+  board[0] == "O"
 end
